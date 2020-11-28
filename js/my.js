@@ -39,6 +39,7 @@ $(document).ready(function(){
             html += '<option value="' + color + '">' + color + "</option>";
         $("#card-color").append(html);
     }
+    
     $(".calk").change(function(){
         tirSize = $("#card-quantity").val()/30;
         pricePapper = typePapper[$("#card-paper").val()] * tirSize;
